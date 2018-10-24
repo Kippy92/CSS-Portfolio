@@ -1,0 +1,206 @@
+/*CSS reset settings here*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    font-family: Arial, sans-serif;
+}
+
+img {
+    width: 40px;
+    padding: 10px 5px;
+}
+
+#wrapper {
+    width: 970px;
+    background-color: #6F5964;
+    margin: 0px auto;
+}
+
+#header {
+    min-height: 50px;
+    background-color: #F6F6F6;
+    margin-bottom: 20px;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#header .tagline {
+    text-align: right;
+    font-size: 20px;
+    padding-left: 400px;
+}
+
+#content1 {
+    min-height: 260px;
+    width: 410px;
+    background-color: #EAE2EA;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    padding: 5px;
+}
+
+#content2 {
+    min-height: 280px;
+    width: 480px;
+    background-color: #EAE2EA;
+    display: inline-block;
+    margin-right: 5px;
+    font-family:  Arial, sans-serif;
+    font-size: 16px;
+}
+
+#content2 p {
+    padding: 10px;
+}
+
+.subhead {
+    min-height: 30px;
+    background: radial-gradient(#6d6b77, #AAA9AE);
+    display: block;
+    color: #F6F6F6;
+    font-size: 25px;
+    padding: 5px;
+}
+    
+
+#midhead1 {
+    min-height: 20px;
+    background: radial-gradient(#6d6b77, #AAA9AE);
+    display: block;
+    color: #F6F6F6;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+#midhead2 {
+    min-height: 20px;
+    background: radial-gradient(#6d6b77, #AAA9AE);
+    display: block;
+    color: #F6F6F6;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 82px;
+}
+
+#midhead3 {
+    min-height: 20px;
+    background: radial-gradient(#6d6b77, #AAA9AE);
+    display: block;
+    color: #F6F6F6;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 45px;
+}
+
+#port1 {
+    min-height: 600px;
+    width: 292px;
+    background-color: #EAE2EA;
+    display: inline-block;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+#port1 p, #port2 p, #port3 p, #footer p {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+#footer p {
+    padding-left: 390px;
+}
+
+#port2 {
+    min-height: 600px;
+    width: 292px;
+    background-color: #EAE2EA;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+#port3 {
+    min-height: 600px;
+    width: 292px;
+    background-color: #EAE2EA;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#footer {
+    min-height: 75px;
+    background-color: #F6F6F6;
+    margin-top: 20px;
+}
+
+#me {
+    display: block;
+    margin: 0 auto;
+    width:410px;
+    min-height:260px;
+    padding: 0px;
+}
+
+#lamode, #familycontacts, #fiveeleven {
+    display: block;
+    width: 292px;
+    padding: 0px;
+}
+
+#github, #linkedin, #twitter, #codepen {
+    width: 15px;
+    vertical-align: middle;
+}
+
+#github {
+    padding-left: 345px;
+    padding-top: 10px;
+}
+
+a {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: black;
+    font-size:15px;
+}
+
+#continue {
+    color: black;
+    font-style: normal;
+    font-size: 15px;
+    padding: 10px;
+    font-family:  Arial, sans-serif;
+}
+button {
+    padding: 5px;
+    background-color:#407D61;
+    color: #D6F0EF;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px black solid;
+    box-shadow: 1px 1px 10px black;
+}
+
+#port1 button {
+    margin-left: 100px;
+}
+
+#port2 button {
+    margin-left: 90px;
+}
+
+#port3 button {
+    margin-left: 100px;
+}
